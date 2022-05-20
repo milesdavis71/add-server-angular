@@ -1,5 +1,5 @@
 {
-  "extends": "tslint:recommended",
+  "extends": ["tslint:latest", "tslint-config-prettier"],
   "rulesDirectory": [
     "codelyzer"
   ],
@@ -83,7 +83,7 @@
       }
     },
     "typedef": [
-      true,
+      false,
       "call-signature"
     ],
     "typedef-whitespace": {
